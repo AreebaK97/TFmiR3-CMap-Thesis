@@ -1,0 +1,82 @@
+Goserelin	5311128
+Nivolumab	
+Capecitabine	60953
+Prosorba
+Palbociclib	5330286	
+Thiotepa	5453	
+Ribociclib Succinate	57334219	
+Margetuximab		
+Capivasertib	25227436	
+Radium-223 chloride		
+Cabazitaxel	9854073	
+Megesterol acetate	11683	
+Pralatrexate	148121	
+Sulfasalazine	5339	
+Eflapegrastim		
+Megestrol	19090	
+Quinestrol	9046	
+Toremifene	3005573	
+Trastuzumab		
+Talaporfin	5486799
+Talaporfin	66803155
+Talaporfin	18608283	
+99mTc-tetrofosmin		
+LY2835219	46220502	
+Trastuzumab deruxtecan		
+ARZOXIFENE	179337	
+Arcitumomab		
+Tamoxifen	2733526	
+Elacestrant	23642301	
+Doxorubicin	31703	
+Dexrazoxane	71384	
+Pembrolizumab		
+Lapatinib	208908	
+Peplomycin	6852373	
+Estradiol	5757	
+99mTc-sestamibi	9832136	
+Tucatinib	51039094	
+Danazol	28417	
+Trilaciclib	68029831	
+Letrozole	3902	
+Taxol	36314	
+Testolactone	13769	
+Pertuzumab		
+Exemestane	60198	
+Talazoparib	135565082	
+Fulvestrant	104741	
+Eribulin	11354606	
+Fluoxymesterone	6446	
+Gestrinone	27812	
+Entrectinib	25141092	
+Bosutinib	5328940	
+Esterified estrogens		
+Lobaplatin		
+YN-968D1	45139106	
+Pirarubicin	11296583
+Pirarubicin	636397
+Pirarubicin	4844
+Pirarubicin	3033521
+Pirarubicin	6917695
+Pirarubicin	45358767
+Pirarubicin	24840378
+Pirarubicin	6712062
+Pirarubicin	131750285
+Pirarubicin	134692159
+Pirarubicin	163285375	
+NERATINIB MALEATE	67307512	
+Nomegestrol acetate	91668	
+Oxidized glutathione		
+Satumomab Pendetide		
+Anastrozole	2187	
+Ixabepilone	6445540	
+Alpelisib	56649450	
+Bavencio		
+Levormeloxifene	35805	
+Virulizin		
+Halaven	17755248	
+Mitomycin	5746	
+Atezolizumab		
+FADROZOLE	59693	
+Merimepodib	153241	
+Dostarlimab		
+Sacituzumab govitecan	91668186

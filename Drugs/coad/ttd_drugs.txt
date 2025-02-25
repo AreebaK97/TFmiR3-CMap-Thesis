@@ -1,0 +1,22 @@
+Oxaliplatin
+Technetium TC 99M votumumab
+Floxuridine
+Cetuximab
+Panitumumab
+mab17-1a
+Intedanib
+Irinotecan
+Necitumumab
+Fruquintinib
+Capecitabine
+Bevacizumab
+Fluorouracil
+Trastuzumab deruxtecan
+Midostaurin
+Pembrolizumab
+Regorafenib
+Aflibercept
+Entrectinib
+Retifanlimab
+Atezolizumab
+OncoVAX

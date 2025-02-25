@@ -1,0 +1,19 @@
+Adagrasib	138611145
+Camptosar	60837
+Camptosar	60838
+Camptosar	74990
+Irinotecan Hydrochloride	74990
+Capecitabine	60953
+Erbitux	85668777
+Cetuximab	14122979
+5-FU	3385
+Fluorouracil Injection	
+Fruquintinib	44480399
+Leucovorin Calcium	135403647
+Lonsurf	9829639
+Trifluridine and Tipiracil Hydrochloride	
+Oxaliplatin	9887053
+Regorafenib	11167602
+Tucatinib	51039094
+Nivolumab	168009888
+Pembrolizumab	168009853

@@ -1,0 +1,50 @@
+Prinomastat	D00MDP
+LDK378	D0KJ9P
+Olaratumab	D09QZS
+Oral paclitaxel	D06NXD
+Becaplermin	D0T5QT
+Ribociclib Succinate	D01HVT
+Bromocriptine	D06YFA
+Topetecan 	D0Z4XW
+Amsacrine	D0G9YH
+Cetuximab	D0N5OV
+Iron Dextran	D08OKJ
+Cabozantinib	D0IQ6P
+Clotrimazole	D09GOS
+Mecasermin	D0F3JT
+Aldesleukin	D05PUD
+Denileukin diftitox	D0J3RY	
+Prinomastat	D00MDP
+Porfimer Sodium	D02JDL
+Pazopanib HCl	D0F0ZY	
+Prinomastat	D00MDP
+Trametinib	D04XVN
+Buprenorphine	D06AWE
+Biricodar	D02VJY
+CT-102	D0U5SC	
+Olaparib	D0J9HW
+Meclofenamate Sodium	D0MN9K	
+Imatinib	D0AZ3C
+Tyverb/Tykerb	D0F0ZE	
+Aprotinin	D08XYX
+Temsirolimus	D0ES1Q
+Octreotide	D02XIY
+Fingolimod	D07UHS
+Abatacept	D0EW4L
+Vincristine	D09QVV
+Sorafenib	D0W5HK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

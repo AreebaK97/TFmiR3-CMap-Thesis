@@ -1,0 +1,27 @@
+Abiraterone Acetate	9821849
+Apalutamide	24872560
+Bicalutamide	2375
+Cabazitaxel	9854073
+Darolutamide	67171867
+Degarelix	16136245
+Docetaxel	148124
+Enzalutamide	15951529
+Firmagon	16136245
+Firmagon	16186010
+Firmagon	25070695
+Flutamide	3397
+Goserelin Acetate	16052011
+Leuprolide Acetate	657180
+Leuprolide Mesylate	73456806
+Mitoxantrone Hydrochloride	51082
+Nilutamide	4493
+Olaparib	23725625
+Pluvicto	122706785
+Lutetium Lu 177 Vipivotide Tetraxetan
+Relugolix	10348973
+Rucaparib Camsylate	121490161
+Talazoparib Tosylate	135565654
+Talzenna	135565082
+Talzenna	135565654
+Zoladex	5311128
+Zoladex	16052011

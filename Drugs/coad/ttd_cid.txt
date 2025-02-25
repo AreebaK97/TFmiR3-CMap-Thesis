@@ -1,0 +1,6 @@
+Oxaliplatin	9887053
+Floxuridine	5790
+Intedanib	135423438
+Irinotecan	60838
+Fruquintinib	44480399
+Capecitabine	60953

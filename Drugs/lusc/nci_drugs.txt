@@ -1,0 +1,88 @@
+Abraxane (Paclitaxel Albumin-stabilized Nanoparticle Formulation)
+Adagrasib
+Afatinib Dimaleate
+Afinitor (Everolimus)
+Afinitor Disperz (Everolimus)
+Alecensa (Alectinib)
+Alectinib
+Alimta (Pemetrexed Disodium)
+Alunbrig (Brigatinib)
+Alymsys (Bevacizumab)
+Amivantamab-vmjw
+Atezolizumab
+Augtyro (Repotrectinib)
+Avastin (Bevacizumab)
+Bevacizumab
+Binimetinib
+Braftovi (Encorafenib)
+Brigatinib
+Capmatinib Hydrochloride
+Cemiplimab-rwlc
+Ceritinib
+Crizotinib
+Cyramza (Ramucirumab)
+Dabrafenib Mesylate
+Dacomitinib
+Docetaxel
+Doxorubicin Hydrochloride
+Durvalumab
+Encorafenib
+Enhertu (Fam-Trastuzumab Deruxtecan-nxki)
+Entrectinib
+Erlotinib Hydrochloride
+Everolimus
+Fam-Trastuzumab Deruxtecan-nxki
+Gavreto (Pralsetinib)
+Gefitinib
+Gilotrif (Afatinib Dimaleate)
+Gemcitabine Hydrochloride
+Gemzar (Gemcitabine Hydrochloride)
+Imfinzi (Durvalumab)
+Imjudo (Tremelimumab-actl)
+Infugem (Gemcitabine Hydrochloride)
+Ipilimumab
+Iressa (Gefitinib)
+Keytruda (Pembrolizumab)
+Krazati (Adagrasib)
+Libtayo (Cemiplimab-rwlc)
+Lorbrena (Lorlatinib)
+Lorlatinib
+Lumakras (Sotorasib)
+Mekinist (Trametinib Dimethyl Sulfoxide)
+Mektovi (Binimetinib)
+Methotrexate Sodium
+Mvasi (Bevacizumab)
+Necitumumab
+Nivolumab
+Opdivo (Nivolumab)
+Osimertinib Mesylate
+Paclitaxel
+Paclitaxel Albumin-stabilized Nanoparticle Formulation
+Pembrolizumab
+Pemetrexed Disodium
+Portrazza (Necitumumab)
+Pralsetinib
+Ramucirumab
+Repotrectinib
+Retevmo (Selpercatinib)
+Rozlytrek (Entrectinib)
+Rybrevant (Amivantamab-vmjw)
+Selpercatinib
+Sotorasib
+Tabrecta (Capmatinib Hydrochloride)
+Tafinlar (Dabrafenib Mesylate)
+Tagrisso (Osimertinib Mesylate)
+Tarceva (Erlotinib Hydrochloride)
+Taxotere (Docetaxel)
+Tecentriq (Atezolizumab)
+Tepmetko (Tepotinib Hydrochloride)
+Tepotinib Hydrochloride
+Trametinib Dimethyl Sulfoxide
+Tremelimumab-actl
+Trexall (Methotrexate Sodium)
+Vizimpro (Dacomitinib)
+Vinorelbine Tartrate
+Xalkori (Crizotinib)
+Yervoy (Ipilimumab)
+Zirabev (Bevacizumab)
+Zykadia (Ceritinib)

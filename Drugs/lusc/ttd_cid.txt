@@ -1,0 +1,106 @@
+Prinomastat	466151
+LDK378	57379345	
+Olaratumab	
+Oral paclitaxel	
+Becaplermin	
+Ribociclib Succinate	57334219
+Bromocriptine	31101
+Topetecan	
+Amsacrine	2179
+Cetuximab	
+Iron Dextran	105075
+Cabozantinib	25102847
+Clotrimazole	2812
+Mecasermin	
+Aldesleukin	
+Denileukin diftitox	
+Prinomastat	466151
+Porfimer Sodium	
+Pazopanib HCl	11525740
+Prinomastat	466151
+Trametinib	11707110
+Buprenorphine	644073
+Biricodar	3037617
+CT-102	
+Olaparib	23725625
+Meclofenamate Sodium	4038
+Imatinib	5291
+Tyverb/Tykerb	
+Aprotinin	22833874
+Aprotinin	16130295
+Aprotinin	53487898
+Aprotinin	156024996
+Aprotinin	169492845
+Aprotinin	166610792
+Aprotinin	170908028
+Aprotinin	146027575
+Aprotinin	129627711
+Temsirolimus	6918289
+Temsirolimus	18293306
+Temsirolimus	148191
+Temsirolimus	23724530
+Temsirolimus	71433778
+Temsirolimus	86287409
+Temsirolimus	122362113
+Temsirolimus	129317846
+Temsirolimus	86277830
+Temsirolimus	5938194
+Temsirolimus	54608508
+Temsirolimus	137295275
+Temsirolimus	145712265
+Temsirolimus	166639522
+Temsirolimus	168012331
+Temsirolimus	168317584
+Temsirolimus	163359784
+Temsirolimus	132274070
+Octreotide	448601
+Fingolimod	107970
+Abatacept	
+Vincristine	5978
+Vincristine	5388993
+Vincristine	3717450
+Vincristine	45358158
+Vincristine	6324671
+Vincristine	71296921
+Vincristine	134755071
+Vincristine	62313
+Sorafenib	216239
+Adagrasib	138611145
+Mobocertinib	118607832
+Lurbinectedin	57327016
+Alectinib	49806720
+Tepotinib	25171648
+Sotorasib	137278711
+Pralsetinib	129073603
+Osimertinib	71496458
+Entrectinib	25141092
+Trilaciclib	68029831
+Lorlatinib	71731823
+RG7853	49806720
+Brigatinib	68165256
+Erlotinib	176870
+Capmatinib	25145656
+Dacomitinib	11511120
+BIBW 2992	10184653
+Hm61713	54758501
+Imatinib	5291
+Repotrectinib	135565923
+Ozanimod	52938427
+Ceritinib	57379345
+Crizotinib	11626560
+Selpercatinib	134436906
+Nedaplatin	6917890
+Nedaplatin	72120
+Nedaplatin	24200453
+Nedaplatin	9796440
+Nedaplatin	131842090
+Nedaplatin	25199925
+Nedaplatin	9548889
+Nedaplatin	46738098
+Nedaplatin	73604010
+Nedaplatin	138402875
+Prinomastat	466151
+Gemcitabine	60750
+Carfilzomib	11556711
+Intedanib	135423438
+Lonafarnib	148195

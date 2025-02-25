@@ -1,0 +1,28 @@
+Atezolizumab	
+Avastin (Bevacizumab)	
+Bevacizumab	
+Cabometyx (Cabozantinib-S-Malate)	
+Cabozantinib-S-Malate	
+Cyramza (Ramucirumab)	
+Durvalumab	
+Futibatinib	71621331
+Imfinzi (Durvalumab)	
+Imjudo (Tremelimumab-actl)	
+Ipilimumab	
+Keytruda (Pembrolizumab)	
+Lenvatinib Mesylate	11237762
+Lenvima (Lenvatinib Mesylate)	
+Lytgobi (Futibatinib)	
+Nexavar (Sorafenib Tosylate)	
+Nivolumab	
+Opdivo (Nivolumab)	
+Pemazyre (Pemigatinib)	
+Pembrolizumab	
+Pemigatinib	86705695
+Ramucirumab	
+Regorafenib	11167602
+Sorafenib Tosylate	406563
+Stivarga (Regorafenib)	
+Tecentriq (Atezolizumab)	
+Tremelimumab-actl	
+Yervoy (Ipilimumab)	

@@ -1,0 +1,28 @@
+anastrozole	2187
+bosutinib	5328940
+capecitabine	60953
+danazol	28417
+dexrazoxane	71384
+doxorubicin	31703
+estradiol	5757
+exemestane	60198
+fulvestrant	104741
+gestrinone	27812
+goserelin	5311128
+letrozole	3902
+megestrol	19090
+mitomycin	5746
+nomegestrol acetate	91668
+palbociclib	5330286
+pirarubicin	11296583,636397,4844,3033521,6917695,45358767,24840378,6712062,131750285,134692159,163285375
+sulfasalazine	5339
+tamoxifen	2733526
+taxol	36314
+thiotepa	5453
+toremifene	3005573
+cyclophosphamide	2907
+docetaxel	148124
+everolimus	6442177
+lapatinib ditosylate	9941095,11557040,208908,208909,11679357,91798457,139061731
+olaparib	23725625
+paclitaxel	36314

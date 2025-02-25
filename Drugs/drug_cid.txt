@@ -1,0 +1,31 @@
+Anastrozole: 2187
+Bosutinib: 5328940
+Capecitabine: 60953
+Cyclophosphamide: 2907
+Danazol: 28417
+Docetaxel: 148124
+Doxorubicin: 31703
+Estradiol: 5757
+Everolimus: 6442177
+Exemestane: 60198
+Fulvestrant: 104741
+Gemcitabine Hydrochloride: 60749, 60750, 44558863
+Gestrinone: 27812
+Goserelin: 5311128
+Lapatinib: 208908
+Letrozole: 3902
+Megestrol: 19090
+Methotrexate Sodium: 11329481, 23678981, 24906323
+Neratinib Maleate: 67307512
+Nomegestrol acetate: 91668
+Olaparib: 23725625
+Paclitaxel: 36314
+Palbociclib: 5330286
+Pirarubicin: 11296583, 636397, 4844, 3033521, 6917695, 45358767, 6712062, 24840378, 122173004, 131750285, 134692159, 137704806, 163285375
+Dexrazoxane: 71384
+Tamoxifen: 2733526
+Thiotepa: 5453
+Toremifene: 3005573
+Vinblastine Sulfate: 5388983, 241902, 9962911, 21867765, 657289, 46783244, 73759759, 131709225
+Epirubicin Hydrochloride: 65348, 41867, 53630345
+Alpelisib: 56649450

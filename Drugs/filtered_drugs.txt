@@ -1,0 +1,70 @@
+99mtc-sestamibi	9832136
+alpelisib	56649450
+anastrozole	2187
+arzoxifene	179337
+bosutinib	5328940
+cabazitaxel	9854073
+capecitabine	60953
+capivasertib	25227436
+danazol	28417
+dexrazoxane	71384
+doxorubicin	31703
+elacestrant	23642301
+entrectinib	25141092
+eribulin	11354606
+estradiol	5757
+exemestane	60198
+fadrozole	59693
+fluoxymesterone	6446
+fulvestrant	104741
+gestrinone	27812
+goserelin	5311128
+halaven	17755248
+ixabepilone	6445540
+letrozole	3902
+levormeloxifene	35805
+ly2835219	46220502
+megesterol acetate	11683
+megestrol	19090
+merimepodib	153241
+mitomycin	5746
+neratinib maleate	67307512
+nomegestrol acetate	91668
+palbociclib	5330286
+peplomycin	6852373
+pirarubicin	11296583,636397,4844,3033521,6917695,45358767,24840378,6712062,131750285,134692159,163285375
+pralatrexate	148121
+quinestrol	9046
+ribociclib succinate	57334219
+sacituzumab govitecan	91668186
+sulfasalazine	5339
+talaporfin	5486799,66803155,18608283
+talazoparib	135565082
+tamoxifen	2733526
+taxol	36314
+testolactone	13769
+thiotepa	5453
+toremifene	3005573
+trilaciclib	68029831
+tucatinib	51039094
+yn-968d1	45139106
+abemaciclib	46220502
+cyclophosphamide	2907
+docetaxel	148124
+doxorubicin hydrochloride	443939
+elacestrant dihydrochloride	67479909
+epirubicin hydrochloride	65348
+eribulin mesylate	17755248
+everolimus	6442177
+gemcitabine hydrochloride	60749
+goserelin acetate	16052011
+lapatinib ditosylate	9941095,11557040,208908,208909,11679357,91798457,139061731
+megestrol acetate	11683
+methotrexate sodium	11329481,23678981,24906323
+olaparib	23725625
+paclitaxel	36314
+pamidronate disodium	73351,60342,4674,44181920,10236235
+ribociclib	44631912
+talazoparib tosylate	135565654
+tamoxifen citrate	2733525
+vinblastine sulfate	5388983,241902,9962911,21867765,131709225,73759759
