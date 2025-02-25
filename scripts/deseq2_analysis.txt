@@ -1,0 +1,78 @@
+library(DESeq2)
+library(SummarizedExperiment)
+library(biomaRt)
+
+cancers <- c("brca", "prad", "lihc", "read", "coad", "skcm", "lusc", "luad")
+
+differential_analysis <- function(cancer_name){
+    counts_file <- paste0("counts_", cancer_name, ".rds")
+    data <- readRDS(counts_file)
+    
+    row_data <- rowData(data)
+    counts <- assay(data)
+
+    protein_coding_genes <- row_data$gene_type == "protein_coding"
+    protein_coding_counts <- counts[protein_coding_genes, ]
+    protein_coding_expression_data <- data[rownames(protein_coding_counts), ]
+
+
+    rna <- as.data.frame(SummarizedExperiment::assay(protein_coding_expression_data))
+    clinical <- data.frame(protein_coding_expression_data@colData)
+    all(rownames(clinical) %in% colnames(rna))
+
+    all(rownames(clinical) == colnames(rna))
+    clinical$definition <-  gsub(" ", "_", clinical$definition)
+
+    clinical$definition <- as.factor(clinical$definition)
+    levels(clinical$definition)
+    clinical$definition <- relevel(clinical$definition, ref = "Solid_Tissue_Normal")
+
+    dds <- DESeqDataSetFromMatrix(countData = rna,
+                                colData = clinical,
+                                design = ~ definition)
+    keep <- rowSums(counts(dds)) > 10
+    dds <- dds[keep,]
+
+    num_genes_after_filtering <- nrow(dds)
+
+    dds <- DESeq(dds)
+    
+    summary_results <- summary(result <- results(dds, alpha = 0.01))
+    num_de_genes <- sum(result$padj < 0.01, na.rm = TRUE)
+    num_upregulated_de_genes <- sum(result$log2FoldChange > 0 & result$padj < 0.01, na.rm = TRUE)
+    num_downregulated_de_genes <- sum(result$log2FoldChange < 0 & result$padj < 0.01, na.rm = TRUE)
+    num_normal_samples <- sum(clinical$definition == "Solid_Tissue_Normal")
+    num_tumor_samples <- sum(clinical$definition == "Primary_Tumor")
+
+    summary_stats <- data.frame(
+        Cancer_Type = cancer_name,
+        Num_Genes_After_Filtering = num_genes_after_filtering,
+        Num_DE_Genes = num_de_genes,
+        Num_Upregulated_DE_Genes = num_upregulated_de_genes,
+        Num_Downregulated_DE_Genes = num_downregulated_de_genes,
+        Num_Normal_Samples = num_normal_samples,
+        Num_Tumor_Samples = num_tumor_samples
+    )
+    
+    summary_stats_file_name <- "summary_statistics_all_samples.csv"
+    if (file.exists(summary_stats_file_name)) {
+        existing_summary_stats <- read.csv(summary_stats_file_name)
+        combined_summary_stats <- rbind(existing_summary_stats, summary_stats)
+        write.csv(combined_summary_stats, summary_stats_file_name, row.names = FALSE)
+    } else {
+        write.csv(summary_stats, summary_stats_file_name, row.names = FALSE)
+    }
+
+    # table(result$padj < 0.01)
+    file_name <- paste0(cancer_name, "_de_genes_deseq2_padj.csv")
+    write.csv(result, file_name)
+
+}
+
+
+for (cancer in cancers){
+     tryCatch({differential_analysis(cancer)}, 
+    error = function(e){
+        cat("Failed to Proccess ", toupper(cancer), " Data: ", conditionMessage(e), "\n\n")
+    })
+}

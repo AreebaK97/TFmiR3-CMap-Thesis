@@ -1,0 +1,39 @@
+library(SummarizedExperiment)
+library(edgeR)
+
+
+counts <- readRDS("counts_brca.rds")
+row_data <- rowData(counts)
+cou <- assay(counts)
+
+protein_coding_genes <- row_data$gene_type == "protein_coding"
+protein_coding_counts <- cou[protein_coding_genes, ]
+
+protein_coding_counts <- protein_coding_counts[rowSums(protein_coding_counts) > 10, ]
+
+protein_coding_expression_data <- counts[rownames(protein_coding_counts), ]
+
+
+clinical_data <- colData(protein_coding_expression_data)
+group <- factor(clinical_data$definition)
+group <- relevel(group, ref="Solid Tissue Normal")
+design <- model.matrix(~group)
+
+dge <- DGEList(counts=assay(protein_coding_expression_data),
+                samples=colData(protein_coding_expression_data),
+                genes=as.data.frame(rowData(protein_coding_expression_data)))
+
+
+keep <- filterByExpr(dge, design)
+dge <- dge[keep,,keep.lib.sizes=FALSE]
+
+y <- calcNormFactors(dge)
+y <- estimateDisp(y, design)
+fit <- glmQLFit(y, design)
+qlf <- glmQLFTest(fit, coef = 2)
+summary(dgelm <- decideTestsDGE(qlf, p = 0.01, adjust.method = "BH"))
+ttglm <- topTags(qlf, n = Inf)
+table(ttglm$table$FDR < 0.01)
+st <- ttglm$table[ttglm$table$FDR < 0.01, ]
+write.csv(st, "protein_dea_genes_edgeR_padj.csv")
+dim(st)
