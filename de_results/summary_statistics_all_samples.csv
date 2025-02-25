@@ -1,0 +1,10 @@
+"Cancer_Type","Num_Genes_After_Filtering","Num_DE_Genes","Num_Upregulated_DE_Genes","Num_Downregulated_DE_Genes","Num_Normal_Samples","Num_Tumor_Samples"
+"brca",19420,13636,8365,5271,113,1111
+"prad",19286,10706,5751,4955,52,501
+"lihc",19074,10673,7280,3393,50,371
+"read",18705,7593,3928,3665,10,166
+"coad",19263,11745,6567,5178,41,481
+"skcm",18898,52,50,2,1,103
+"lusc",19382,13696,8124,5572,51,502
+"luad",19315,12469,8037,4432,59,539
+"kirc",19392,13810,8220,5590,72,541
