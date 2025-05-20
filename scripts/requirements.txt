@@ -4,6 +4,5 @@ numpy
 mygene
 pubchempy
 cmapPy
-tempfile
 PyYAML
 matplotlib
