@@ -4,6 +4,6 @@ numpy
 mygene
 pubchempy
 cmapPy
-yaml
 tarfile
 tempfile
+yaml
