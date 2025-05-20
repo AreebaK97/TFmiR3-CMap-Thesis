@@ -4,7 +4,6 @@ numpy
 mygene
 pubchempy
 cmapPy
-tarfile
 tempfile
-pyyaml
+PyYAML
 matplotlib
