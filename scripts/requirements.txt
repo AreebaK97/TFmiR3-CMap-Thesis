@@ -6,5 +6,4 @@ pubchempy
 cmapPy
 tarfile
 tempfile
-yaml
 PyYAML
