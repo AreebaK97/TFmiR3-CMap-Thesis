@@ -7,3 +7,4 @@ cmapPy
 tarfile
 tempfile
 pyyaml
+matplotlib
