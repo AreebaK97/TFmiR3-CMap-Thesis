@@ -6,5 +6,5 @@ pubchempy
 cmapPy
 tarfile
 tempfile
-pyyaml
+PyYAML
 matplotlib
