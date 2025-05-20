@@ -4,7 +4,7 @@ numpy
 mygene
 pubchempy
 cmapPy
-tarfile
+requests
 tempfile
 PyYAML
 matplotlib
