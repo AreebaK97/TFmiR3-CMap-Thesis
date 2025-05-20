@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+mygene
+pubchempy
+cmapPy
+tarfile
+tempfile
+pyyaml
+matplotlib
