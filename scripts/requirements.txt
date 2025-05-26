@@ -4,3 +4,6 @@ numpy
 mygene
 pubchempy
 cmapPy
+requests
+PyYAML
+matplotlib
