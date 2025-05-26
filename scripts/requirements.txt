@@ -1,8 +1,0 @@
-streamlit
-pandas
-numpy
-mygene
-pubchempy
-cmapPy
-PyYAML
-matplotlib
