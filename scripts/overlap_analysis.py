@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from cmapPy.pandasGEXpress.parse import parse
 from functools import reduce
 import json
-from cmap_api import *
 import pubchempy as pcp
 import requests
 from io import StringIO
