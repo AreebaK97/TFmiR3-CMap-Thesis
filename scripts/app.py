@@ -28,12 +28,13 @@ def submit_queries(cancer_name, method, num_genes, node_properties, network_prop
         st.error("Not enough genes extracted. Try increasing the gene count.")
         return None
     
+    scope = 'ensembl.gene' if upregulated_genes[0].startswith('ENSG') else 'symbol'
     mg = mygene.MyGeneInfo()
-    data = mg.querymany(upregulated_genes, scopes='symbol', fields='entrezgene', species='human')
+    data = mg.querymany(upregulated_genes, scopes = scope, fields='entrezgene', species='human')
     entrezgenelist = [item['entrezgene'] for item in data if 'entrezgene' in item]
     upregulated_genes_str = 'TAG\\t\\t' + ('\\t'.join([str(x) for x in entrezgenelist]))
 
-    data = mg.querymany(downregulated_genes, scopes='symbol', fields='entrezgene', species='human')
+    data = mg.querymany(downregulated_genes, scopes = scope, fields='entrezgene', species='human')
     entrezgenelist = [item['entrezgene'] for item in data if 'entrezgene' in item]
     downregulated_genes_str = 'TAG\\t\\t' + ('\\t'.join([str(x) for x in entrezgenelist]))
 
