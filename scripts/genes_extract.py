@@ -1,6 +1,6 @@
 import pandas as pd
 import yaml
-
+import mygene
 
 def extract_genes(method, num_genes, node_properties_file=None, network_properties_file=None, degs_file=None, log2fc_threshold=1):
     """
@@ -35,7 +35,9 @@ def extract_genes(method, num_genes, node_properties_file=None, network_properti
             cancer_df = cancer_df.rename(columns={"Unnamed: 0": "gene_id"})
     
             cancer_df["gene_id"] = cancer_df["gene_id"].str.replace(r"\.\d+$", "", regex=True)
-    
+            mg = mygene.MyGeneInfo()
+            genes = mg.querymany(cancer_df["gene_id"], scopes = "ensembl.gene", fields='symbol', species='human')
+            cancer_df = cancer_df.assign(gene_name=genes)
         # genes = genes.str.replace(r"\.\d+$", "", regex=True)
         # cancer_df = cancer_df.assign(cleaned_gene=genes)
         upregulated = cancer_df[cancer_df[logfc_col] > log2fc_threshold].head(num_genes)["gene_id"].tolist()
