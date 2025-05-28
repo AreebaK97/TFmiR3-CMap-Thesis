@@ -19,23 +19,27 @@ def extract_genes(method, num_genes, node_properties_file=None, network_properti
     """
     cancer_df = pd.read_csv(degs_file)
     output = {}
+    
     if method == "degs":
         if not degs_file:
             raise ValueError("DEGs file must be provided when method is 'degs'.")
-
+    
         pval_col = "padj" if "padj" in cancer_df.columns else "FDR"
         logfc_col = "log2FoldChange" if "log2FoldChange" in cancer_df.columns else "logFC"
         pval_raw_col = "pvalue" if "pvalue" in cancer_df.columns else "PValue"
         cancer_df = cancer_df[(cancer_df[pval_col] < 0.01) & (abs(cancer_df[logfc_col]) > log2fc_threshold)].sort_values(pval_raw_col)
         if "gene_name" in cancer_df.columns:
             genes = cancer_df["gene_name"].astype(str)
+            cancer_df = cancer_df.assign(gene_id=genes)
         else:
-            genes = cancer_df.index.astype(str)
-
-        genes = genes.str.replace(r"\.\d+$", "", regex=True)
-        cancer_df = cancer_df.assign(cleaned_gene=genes)
-        upregulated = cancer_df[cancer_df[logfc_col] > log2fc_threshold].head(num_genes)["cleaned_gene"].tolist()
-        downregulated = cancer_df[cancer_df[logfc_col] < -log2fc_threshold].head(num_genes)["cleaned_gene"].tolist()
+            cancer_df = cancer_df.rename(columns={"Unnamed: 0": "gene_id"})
+    
+            cancer_df["gene_id"] = cancer_df["gene_id"].str.replace(r"\.\d+$", "", regex=True)
+    
+        # genes = genes.str.replace(r"\.\d+$", "", regex=True)
+        # cancer_df = cancer_df.assign(cleaned_gene=genes)
+        upregulated = cancer_df[cancer_df[logfc_col] > log2fc_threshold].head(num_genes)["gene_id"].tolist()
+        downregulated = cancer_df[cancer_df[logfc_col] < -log2fc_threshold].head(num_genes)["gene_id"].tolist()
         
         # cancer_df = cancer_df[(cancer_df["padj"] < 0.01) & (abs(cancer_df["log2FoldChange"]) > log2fc_threshold)].sort_values("pvalue")
         #upregulated = cancer_df[cancer_df["log2FoldChange"] > log2fc_threshold].head(num_genes)["gene_name"].tolist()
