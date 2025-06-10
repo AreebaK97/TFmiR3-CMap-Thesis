@@ -10,7 +10,7 @@ from io import BytesIO
 import tarfile
 import tempfile
 
-def submit_queries(cancer_name, method, num_genes, node_properties, network_properties, degs):
+def submit_queries(cancer_name, method, num_genes, node_properties, network_properties, degs, user_key):
 
     st.write("Extracting genes...")
     genes_dict = extract_genes(
@@ -28,20 +28,19 @@ def submit_queries(cancer_name, method, num_genes, node_properties, network_prop
         st.error("Not enough genes extracted. Try increasing the gene count.")
         return None
     
-    scope = 'ensembl.gene' if upregulated_genes[0].startswith('ENSG') else 'symbol'
     mg = mygene.MyGeneInfo()
-    data = mg.querymany(upregulated_genes, scopes = scope, fields='entrezgene', species='human')
+    data = mg.querymany(upregulated_genes, scopes='symbol', fields='entrezgene', species='human')
     entrezgenelist = [item['entrezgene'] for item in data if 'entrezgene' in item]
     upregulated_genes_str = 'TAG\\t\\t' + ('\\t'.join([str(x) for x in entrezgenelist]))
 
-    data = mg.querymany(downregulated_genes, scopes = scope, fields='entrezgene', species='human')
+    data = mg.querymany(downregulated_genes, scopes='symbol', fields='entrezgene', species='human')
     entrezgenelist = [item['entrezgene'] for item in data if 'entrezgene' in item]
     downregulated_genes_str = 'TAG\\t\\t' + ('\\t'.join([str(x) for x in entrezgenelist]))
 
     headers = {
         'Content-Type': 'application/json',
         'Accept': 'application/json',
-        'user_key': '2f844a47b5bad670768300263f923a92',
+        'user_key': user_key,
     }
 
     query_name = f"{cancer_name}_{num_genes}_{method}"
@@ -68,10 +67,10 @@ def submit_queries(cancer_name, method, num_genes, node_properties, network_prop
         return None
 
 
-def fetch_results(job_id):
+def fetch_results(job_id, user_key):
     headers = {
         'Accept': 'application/json',
-        'user_key': '2f844a47b5bad670768300263f923a92',
+        'user_key': user_key,
     }
     response = requests.get(f'http://api.clue.io/api/jobs/findByJobId/{job_id}', headers=headers)
 
@@ -92,40 +91,29 @@ def fetch_results(job_id):
 st.title("CMAP Query Submission")
 st.markdown("### Extract genes and submit queries to the CMAP API.")
 
+api_key = st.text_input("Enter CMap API Key")
 cancer_name = st.text_input("Enter Cancer Type")
 method = st.selectbox("Select Extraction Method", ["degs", "hub", "mds", "vertex", "bfs"])
-num_genes = st.number_input("Number of Genes to Extract", min_value=10, max_value=150, value=100)
-
+num_genes = st.number_input("Number of Genes to Extract", min_value=10, max_value=150, value=50)
+degs = st.file_uploader("Upload DEGs File", type=["csv"], key="degs")
 node_properties = st.file_uploader("Upload Node Properties File (TSV)", type=["tsv"], key="node_properties")
 network_properties = st.file_uploader("Upload Network Properties File (YAML)", type=["yaml"], key="network_properties")
-degs = st.file_uploader("Upload DEGs File", type=["csv"], key="degs")
+
 
 if st.button("Submit Query"):
     if degs is None and (node_properties is None or network_properties is None):
         st.error("Please upload the DEGs file or both the node and network property files.")
     else:
-        job_id = submit_queries(cancer_name, method, num_genes, node_properties, network_properties, degs)
+        job_id = submit_queries(cancer_name, method, num_genes, node_properties, network_properties, degs, api_key)
 
         if job_id:
             st.session_state["job_id"] = job_id
 
-def load_drug_data(file):
-    if file is not None:
-        return file.read().decode("utf-8").splitlines()
-    else:
-        st.info("No drug file uploaded. Using default drug file from Github.")
-        try:
-            response = requests.get()
-            response.raise_for_status()
-            return response.text.splitlines()
-        except Exception as e:
-            st.error(f"{e}")
-            return []
 
-def download_and_extract_gctx(job_id):
+def download_and_extract_gctx(job_id, user_key):
     headers = {
         'Accept': 'application/json',
-        'user_key': '2f844a47b5bad670768300263f923a92',
+        'user_key': user_key,
     }
 
     # job id info
@@ -165,7 +153,7 @@ def download_and_extract_gctx(job_id):
 
 
 if st.button("Run Overlap"):
-    gctx_bytes = download_and_extract_gctx(st.session_state["job_id"])
+    gctx_bytes = download_and_extract_gctx(st.session_state["job_id"], api_key)
     drug_file = st.file_uploader("Upload Drug File (Optional)", type=["txt"], key="drugs")
     if gctx_bytes:
         cancer_name = cancer_name.strip()
@@ -181,4 +169,4 @@ if st.button("Run Overlap"):
 
 if "job_id" in st.session_state:
     if st.button("Fetch Results"):
-        fetch_results(st.session_state["job_id"])
+        fetch_results(st.session_state["job_id"], api_key)
