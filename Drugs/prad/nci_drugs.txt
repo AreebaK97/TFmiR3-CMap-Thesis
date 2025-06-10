@@ -1,0 +1,44 @@
+Abiraterone Acetate
+Akeega (Niraparib Tosylate Monohydrate and Abiraterone Acetate)
+Apalutamide
+Bicalutamide
+Cabazitaxel
+Camcevi (Leuprolide Mesylate)
+Casodex (Bicalutamide)
+Darolutamide
+Degarelix
+Docetaxel
+Eligard (Leuprolide Acetate)
+Enzalutamide
+Erleada (Apalutamide)
+Firmagon (Degarelix)
+Flutamide
+Goserelin Acetate
+Jevtana (Cabazitaxel)
+Leuprolide Acetate
+Leuprolide Mesylate
+Lupron Depot (Leuprolide Acetate)
+Lutetium Lu 177 Vipivotide Tetraxetan
+Lynparza (Olaparib)
+Mitoxantrone Hydrochloride
+Nilandron (Nilutamide)
+Nilutamide
+Niraparib Tosylate Monohydrate and Abiraterone Acetate
+Nubeqa (Darolutamide)
+Olaparib
+Orgovyx (Relugolix)
+Pluvicto (Lutetium Lu 177 Vipivotide Tetraxetan)
+Provenge (Sipuleucel-T)
+Radium 223 Dichloride
+Relugolix
+Rubraca (Rucaparib Camsylate)
+Rucaparib Camsylate
+Sipuleucel-T
+Taxotere (Docetaxel)
+Talazoparib Tosylate
+Talzenna (Talazoparib Tosylate)
+Xofigo (Radium 223 Dichloride)
+Xtandi (Enzalutamide)
+Yonsa (Abiraterone Acetate)
+Zoladex (Goserelin Acetate)
+Zytiga (Abiraterone Acetate)

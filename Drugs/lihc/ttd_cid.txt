@@ -1,0 +1,16 @@
+DTI-015	2578
+Melphalan	460612
+Futibatinib	71621331
+Infigratinib	53235510
+Ivosidenib	71657455
+Siponimod	44599207
+Capmatinib	25145656
+Doxorubicin	31703
+Thymalfasin	16130571
+Pemigatinib	86705695
+Lenvatinib	9823820
+Tepotinib	25171648
+Sorafenib	216239
+Lenvatinib Mesylate	11237762
+Regorafenib	11167602
+Sorafenib Tosylate	406563

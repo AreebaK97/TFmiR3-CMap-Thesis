@@ -1,0 +1,14 @@
+Oxaliplatin	9887053
+Floxuridine	5790
+Intedanib	135423438
+Irinotecan	60838
+Fruquintinib	44480399
+Capecitabine	60953
+Fluorouracil	3385
+Midostaurin	9829523
+Regorafenib	11167602
+Entrectinib	25141092
+Raltitrexed	135400182
+Selpercatinib	134436906
+Erlotinib	176870
+Levamisole	26879

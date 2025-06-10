@@ -1,0 +1,56 @@
+Abraxane	36314
+Paclitaxel Albumin-stabilized Nanoparticle Formulation
+Adagrasib	138611145
+Afatinib Dimaleate	15606394
+Alectinib	49806720
+Alimta	135413520
+Alimta	135410875
+Alimta	135564751
+Alimta	135916113
+Alimta	168322524
+Pemetrexed Disodium	135413520
+Pemetrexed Disodium	135410875
+Pemetrexed Disodium	136068113
+Pemetrexed Disodium	135916113
+Binimetinib	10288191
+Brigatinib	68165256
+Capmatinib Hydrochloride	122201352
+Ceritinib	57379345
+Crizotinib	11626560
+Dabrafenib Mesylate	44516822
+Dacomitinib	11511120
+Docetaxel	148124
+Doxorubicin Hydrochloride	443939
+Encorafenib	50922675
+Entrectinib	25141092
+Erlotinib Hydrochloride	176871
+Everolimus	6442177
+Gefitinib	123631
+Gemcitabine Hydrochloride	60749
+Lorlatinib	71731823
+Methotrexate Sodium	11329481
+Methotrexate Sodium	23678981
+Methotrexate Sodium	24906323
+Osimertinib Mesylate	78357807
+Paclitaxel	36314
+Pralsetinib	129073603
+Repotrectinib	135565923
+Selpercatinib	134436906
+Sotorasib	137278711
+Tarceva	176871
+Tarceva	176870
+Tarceva	44263854
+Tepotinib Hydrochloride	46700774
+Trametinib Dimethyl Sulfoxide	50992434
+Vinorelbine Tartrate	11607738
+Vinorelbine Tartrate	60779
+Vinorelbine Tartrate	16051941
+Vinorelbine Tartrate	45055483
+Vinorelbine Tartrate	45358014
+Vinorelbine Tartrate	21584522
+Vinorelbine Tartrate	44558883
+Vinorelbine Tartrate	53262279
+Vinorelbine Tartrate	135391153
+Vinorelbine Tartrate	138112574
+Xalkori	11626560
+Xalkori	11597571

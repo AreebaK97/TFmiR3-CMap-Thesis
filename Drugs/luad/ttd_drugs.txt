@@ -1,0 +1,49 @@
+Adagrasib
+Amivantamab
+Mobocertinib
+Sugemalimab
+Atezolizumab
+Tepotinib
+Sotorasib
+Pralsetinib
+Osimertinib
+Entrectinib
+Lorlatinib
+RG7853
+Brigatinib
+Erlotinib
+Capmatinib
+Dacomitinib
+BIBW 2992
+Repotrectinib
+Ceritinib
+Crizotinib
+Porfimer Sodium
+Selpercatinib
+Nedaplatin
+Nivolumab
+Gemcitabine
+Prinomastat
+Carfilzomib
+Topotecan
+Bevacizumab
+Hm61713
+Plicamycin
+Belotecan hydrocholoride
+Ozanimod
+Pembrolizumab
+Intedanib
+Olaratumab
+Trilaciclib
+Denileukin diftitox
+Retifanlimab
+Lenvatinib
+Alectinib
+Lurbinectedin
+Lonafarnib
+Topetecan
+Imatinib
+Sacituzumab govitecan
+HBI-8000
+Icotinib hydrochloride
+

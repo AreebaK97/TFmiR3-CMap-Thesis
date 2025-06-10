@@ -1,0 +1,103 @@
+Abemaciclib	46220502
+Abraxane (Paclitaxel Albumin-stabilized Nanoparticle Formulation)	
+Ado-Trastuzumab Emtansine	
+Afinitor (Everolimus)	
+Afinitor Disperz (Everolimus)	
+Alpelisib	56649450
+Anastrozole	2187
+Aredia (Pamidronate Disodium)	
+Arimidex (Anastrozole)	
+Aromasin (Exemestane)	
+Capecitabine	60953
+Capivasertib	25227436
+Cyclophosphamide	2907
+Docetaxel	148124
+Doxorubicin Hydrochloride	443939
+Elacestrant Dihydrochloride	67479909
+Ellence (Epirubicin Hydrochloride)	
+Enhertu (Fam-Trastuzumab Deruxtecan-nxki)	
+Epirubicin Hydrochloride	65348
+Eribulin Mesylate	17755248
+Everolimus	6442177
+Exemestane	60198
+5-FU (Fluorouracil Injection)	
+Fam-Trastuzumab Deruxtecan-nxki	
+Fareston (Toremifene)	
+Faslodex (Fulvestrant)	
+Femara (Letrozole)	
+Fluorouracil Injection	
+Fulvestrant	104741
+Gemcitabine Hydrochloride	60749
+Gemzar (Gemcitabine Hydrochloride)	
+Goserelin Acetate	16052011
+Halaven (Eribulin Mesylate)	
+Herceptin Hylecta (Trastuzumab and Hyaluronidase-oysk)	
+Herceptin (Trastuzumab)	
+Ibrance (Palbociclib)	
+Infugem (Gemcitabine Hydrochloride)	
+Ixabepilone	6445540
+Ixempra (Ixabepilone)	
+Kadcyla (Ado-Trastuzumab Emtansine)	
+Keytruda (Pembrolizumab)	
+Kisqali (Ribociclib)	
+Lapatinib Ditosylate	9941095
+Lapatinib Ditosylate	11557040
+Lapatinib Ditosylate	208908
+Lapatinib Ditosylate	208909
+Lapatinib Ditosylate	11679357
+Lapatinib Ditosylate	91798457
+Lapatinib Ditosylate	139061731
+Letrozole	3902
+Lynparza (Olaparib)	
+Margenza (Margetuximab-cmkb)	
+Margetuximab-cmkb	
+Megestrol Acetate	11683
+Methotrexate Sodium	11329481
+Methotrexate Sodium	23678981
+Methotrexate Sodium	24906323
+Neratinib Maleate	67307512
+Nerlynx (Neratinib Maleate)	
+Olaparib	23725625
+Orserdu (Elacestrant Dihydrochloride)	
+Paclitaxel	36314
+Paclitaxel Albumin-stabilized Nanoparticle Formulation	
+Palbociclib	5330286
+Pamidronate Disodium	73351
+Pamidronate Disodium	60342
+Pamidronate Disodium	4674
+Pamidronate Disodium	44181920
+Pamidronate Disodium	10236235
+Pembrolizumab	
+Perjeta (Pertuzumab)	
+Pertuzumab	
+Pertuzumab, Trastuzumab, and Hyaluronidase-zzxf	
+Phesgo (Pertuzumab, Trastuzumab, and Hyaluronidase-zzxf)	
+Piqray (Alpelisib)	
+Ribociclib	44631912
+Sacituzumab Govitecan-hziy	
+Soltamox (Tamoxifen Citrate)	
+Talazoparib Tosylate	135565654
+Talzenna (Talazoparib Tosylate)	
+Tamoxifen Citrate	2733525
+Taxotere (Docetaxel)	
+Tecentriq (Atezolizumab)	
+Tepadina (Thiotepa)	
+Thiotepa	5453
+Toremifene	3005573
+Trastuzumab	
+Trastuzumab and Hyaluronidase-oysk	
+Trexall (Methotrexate Sodium)	
+Trodelvy (Sacituzumab Govitecan-hziy)	
+Truqap (Capivasertib)	
+Tucatinib	51039094
+Tukysa (Tucatinib)	
+Tykerb (Lapatinib Ditosylate)	
+Verzenio (Abemaciclib)	
+Vinblastine Sulfate	5388983
+Vinblastine Sulfate	241902
+Vinblastine Sulfate	9962911
+Vinblastine Sulfate	21867765
+Vinblastine Sulfate	131709225
+Vinblastine Sulfate	73759759
+Xeloda (Capecitabine)	
+Zoladex (Goserelin Acetate)	

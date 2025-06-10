@@ -1,0 +1,70 @@
+Goserelin	D00BCG
+Nivolumab	D00GOV
+Capecitabine	D00HCQ
+Prosorba	D00PJY
+Palbociclib	D00UZR
+Thiotepa	D00YZA
+Ribociclib Succinate	D01HVT
+Margetuximab	D01YYP
+Capivasertib	D01ZAQ
+Radium-223 chloride	D02HNF
+Cabazitaxel	D02HSB
+Megesterol acetate	D02IRD
+Pralatrexate	D02LWU
+Sulfasalazine	D02ZTJ
+Eflapegrastim	D04CKG
+Megestrol	D04GJN
+Quinestrol	D04UZT
+Toremifene	D04VFJ
+Trastuzumab	D04WFL
+Talaporfin	D04WJO
+99mTc-tetrofosmin	D05HFN
+LY2835219	D05SBO
+Trastuzumab deruxtecan	D06BHB
+ARZOXIFENE	D06LOQ
+Arcitumomab	D06URS
+Tamoxifen	D07KSG
+Elacestrant	D07KUN
+Doxorubicin	D07VLY
+Dexrazoxane	D07XVN
+Pembrolizumab	D08ANZ
+Lapatinib	D08CDI
+Peplomycin	D08HJT
+Estradiol	D08QMX
+99mTc-sestamibi	D09BIW
+Tucatinib	D09GRX
+Danazol	D09IPV
+Trilaciclib	D0AP9E
+Letrozole	D0C1WH
+Taxol	D0C4RB
+Testolactone	D0C7JF
+Pertuzumab	D0CI4E
+Exemestane	D0D2VS
+Talazoparib	D0GV8J
+Fulvestrant	D0JO7Y
+Eribulin	D0KK2E
+Fluoxymesterone	D0L2LS
+Gestrinone	D0M5RF
+Entrectinib	D0O0LS
+Bosutinib	D0OB0F
+Esterified estrogens	D0R6RE
+Lobaplatin	D0S4QZ
+YN-968D1	D0SZ6E
+Pirarubicin	D0T8EH
+NERATINIB MALEATE	D0U1ZV
+Nomegestrol acetate	D0V2JK
+Oxidized glutathione	D0V4TY
+Satumomab Pendetide	D0V6RC
+Anastrozole	D0W0BF
+Ixabepilone	D0W2EK
+Alpelisib	D0W7HE
+Bavencio	D0W8HN
+Levormeloxifene	D0W9GA
+Virulizin	D0X4BZ
+Halaven	D0XQ5X
+Mitomycin	D0Y0GH
+Atezolizumab	D0YM2K
+FADROZOLE	D0ZX1P
+Merimepodib	D0F0ZE
+Dostarlimab	DGQU43
+Sacituzumab govitecan	D8LAE2
