@@ -155,16 +155,47 @@ def download_and_extract_gctx(job_id, user_key):
 if st.button("Run Overlap"):
     gctx_bytes = download_and_extract_gctx(st.session_state["job_id"], api_key)
     drug_file = st.file_uploader("Upload Drug File (Optional)", type=["txt"], key="drugs")
-    if gctx_bytes:
-        cancer_name = cancer_name.strip()
-        try:
-            result = overlap_analysis_cmps(drug_file, gctx_bytes, cancer_name)
-            st.write("Overlap Analysis Result:")
-            st.dataframe(result)
-        except Exception as e:
-            st.write(f"Error in Overlap Anaylsis :: {e}")
-    else:
-        st.error("Failed to load GCTX data for overlap analysis.")
+    if drug_file is not None:
+        st.success("Drug file uploaded.")
+        if st.button("Run Overlap Analysis"):
+            if "job_id" not in st.session_state:
+                st.error("No CMap job found. Please run CMap analysis first.")
+            else:
+                gctx_bytes = download_and_extract_gctx(st.session_state["job_id"], api_key)
+                if gctx_bytes:
+                    try:
+                        result = overlap_analysis_cmps(drug_file, gctx_bytes, cancer_name.strip())
+                        st.success("Overlap Analysis Result:")
+                        st.dataframe(result)
+                    except Exception as e:
+                        st.error(f"Error in Overlap Analysis: {e}")
+                else:
+                    st.error("Failed to load GCTX data for overlap analysis.")
+
+    elif st.button("Run Overlap Without Drug File"):
+        if "job_id" not in st.session_state:
+            st.error("No CMap job found. Please run CMap analysis first.")
+        else:
+            gctx_bytes = download_and_extract_gctx(st.session_state["job_id"], api_key)
+            if gctx_bytes:
+                try:
+                    result = overlap_analysis_cmps(None, gctx_bytes, cancer_name.strip())
+                    st.success("Overlap Analysis Result:")
+                    st.dataframe(result)
+                except Exception as e:
+                    st.error(f"Error in Overlap Analysis: {e}")
+            else:
+                st.error("Failed to load GCTX data for overlap analysis.")
+    # if gctx_bytes:
+    #     cancer_name = cancer_name.strip()
+    #     try:
+    #         result = overlap_analysis_cmps(drug_file, gctx_bytes, cancer_name)
+    #         st.write("Overlap Analysis Result:")
+    #         st.dataframe(result)
+    #     except Exception as e:
+    #         st.write(f"Error in Overlap Anaylsis :: {e}")
+    # else:
+    #     st.error("Failed to load GCTX data for overlap analysis.")
 
 
 if "job_id" in st.session_state:
