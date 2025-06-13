@@ -173,13 +173,13 @@ if st.button("Run Overlap"):
                     st.error("Failed to load GCTX data for overlap analysis.")
 
     elif st.button("Run Overlap Without Drug File"):
+        drug_file = None
         if "job_id" not in st.session_state:
             st.error("No CMap job found. Please run CMap analysis first.")
         else:
-            gctx_bytes = download_and_extract_gctx(st.session_state["job_id"], api_key)
             if gctx_bytes:
                 try:
-                    result = overlap_analysis_cmps(None, gctx_bytes, cancer_name.strip())
+                    result = overlap_analysis_cmps(drug_file, gctx_bytes, cancer_name.strip())
                     st.success("Overlap Analysis Result:")
                     st.dataframe(result)
                 except Exception as e:
