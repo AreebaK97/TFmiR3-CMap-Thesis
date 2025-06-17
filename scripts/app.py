@@ -98,6 +98,7 @@ num_genes = st.number_input("Number of Genes to Extract", min_value=10, max_valu
 degs = st.file_uploader("Upload DEGs File", type=["csv"], key="degs")
 node_properties = st.file_uploader("Upload Node Properties File (TSV)", type=["tsv"], key="node_properties")
 network_properties = st.file_uploader("Upload Network Properties File (YAML)", type=["yaml"], key="network_properties")
+drug_file = st.file_uploader("Upload Drug File (Optional for Overlap Analysis)", type=["txt"], key="drugs")
 
 
 if st.button("Submit Query"):
@@ -152,7 +153,6 @@ def download_and_extract_gctx(job_id, user_key):
     return None
 
 
-drug_file = st.file_uploader("Upload Drug File (Optional)", type=["txt"], key="drugs")
 
 if st.button("Run Overlap Analysis"):
     if "job_id" not in st.session_state:
