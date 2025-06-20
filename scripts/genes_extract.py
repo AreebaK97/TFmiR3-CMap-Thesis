@@ -63,7 +63,7 @@ def extract_genes(method, num_genes, node_properties_file=None, network_properti
             upregulated = method_genes[method_genes["log2FoldChange"] > log2fc_threshold].head(num_genes)["gene_name"].tolist()
             downregulated = method_genes[method_genes["log2FoldChange"] < -log2fc_threshold].head(num_genes)["gene_name"].tolist()
         elif method == "mds":
-            genes = filtered_data[filtered_data["MDS"] == "True"]["node.ID"].tolist()
+            genes = filtered_data[filtered_data["MDS"].astype(str) == "True"]["node.ID"].tolist()
             method_genes = cancer_df[cancer_df["gene_name"].isin(genes)].sort_values(pval_raw_col)
             upregulated = method_genes[method_genes["log2FoldChange"] > log2fc_threshold].head(num_genes)["gene_name"].tolist()
             downregulated = method_genes[method_genes["log2FoldChange"] < -log2fc_threshold].head(num_genes)["gene_name"].tolist()
