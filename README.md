@@ -1,14 +1,14 @@
 # TFmiR3 and CMap: A Workflow for Drug Prioritization
 This repository contains the computational workflow and Streamlit application developed as part of my Master's thesis, TFmiR3 and CMap: A Workflow for Drug Prioritization, at Universität des Saarlandes.
 
-The project integrates differential expression analysis, mRNA-miRNA co-regulatory networks, network-based gene prioritization and the Connectivity Map (CMap) to identify and evaluate potential cancer drug candidates.
+The project integrates differential expression analysis, mRNA-miRNA co-regulatory networks (TFmiR3), network-based gene prioritization and the Connectivity Map (CMap) to identify and evaluate potential cancer drug candidates.
 
 A Python-based Streamlit App was developed to automate the downstream drug discovery workflow and provide an interactive interface for submitting refined gene signatures to the CMap Query App API. 
 The app can be accessed freely at https://tfmir3-cmap.streamlit.app/
 
 ## Project Objective
 
-The objective of this workflow was to develop and validate a computational pipeline for drug repurposing in cancer treatment by integrating gene regulatory network analysis (using TFmiR3) with the Connectivity Map (CMap) database. The goal was to improve drug discovery efficiency by using transcriptional and network-based methods to identify and prioritize existing compounds with potential therapeutic value for cancer treatment.
+The objective of this workflow was to develop and validate a computational pipeline for drug repurposing in cancer treatment by integrating gene regulatory network analysis (using TFmiR3: freely available at https://service.bioinformatik.uni-saarland.de/tfmir3-test/) with the Connectivity Map (CMap) database. The goal was to improve drug discovery efficiency by using transcriptional and network-based methods to identify and prioritize existing compounds with potential therapeutic value for cancer treatment.
 
 ## Workflow
 
